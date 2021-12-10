@@ -1,1 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
+body {
+    background-color: palevioletred;
+    font-family: 'Readex Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    background-color: papayawhip;
+    border-radius: 10px;
+    width: 40%;
+    overflow: hidden;
+}
+
+.header {
+    padding: 5px;
+}
+
+#question {
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+ul li {
+    margin: 5px;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: powderblue;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 1.5rem;
+}
